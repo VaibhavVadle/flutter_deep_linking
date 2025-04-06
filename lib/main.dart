@@ -3,6 +3,7 @@ import 'package:flutter_deep_links/home_screen.dart';
 import 'package:get/get.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const App());
 }
 
